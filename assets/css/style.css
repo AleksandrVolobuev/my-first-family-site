@@ -1,0 +1,114 @@
+/* это фон сайта-фотография */
+body {
+background-image:url(/assets/img/family.jpg);
+background-repeat:initial;
+background-position: 0 0;
+background-attachment: fixed;
+}
+.fon-mather {
+  background-image:url(/assets/img/tkan.jpg) ;
+  background-repeat:initial;
+  background-position: 0 0;
+  background-attachment: fixed;
+}
+.fon-sonIvan {
+  background-image:url(/assets/img/Tree.jpg) ;
+  background-repeat:initial;
+  background-position: 0 0;
+  background-attachment: fixed;
+}
+.h1-text {
+  display: inline-block;
+  font-size:60px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 10px;
+  color: rgba(240, 66, 240, 0.829);
+  box-shadow:5px 5px 10px 5px rgb(12, 11, 11);
+  margin:20px 650px;
+  padding: 10px;
+}
+/* стилизация заголовков */
+.h-text {
+  font-size: 30px;
+  font-style: italic;
+  color: rgba(185, 5, 185, 0.829);
+  text-align:left;
+  text-decoration:underline;
+  margin-left: 50px;
+
+  
+}
+/* это чтоб уменшить фото. чтоб они помещались на страницу */
+.img1 {
+  margin: 10px;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  border: 5px;
+  border: 1px solid black;
+  box-shadow:5px 5px 10px 5px rgb(12, 11, 11);
+  margin-left: 40px;
+}
+/*  это дизайн кнопки для семьи*/
+.btn-header-family {
+  margin: 10px;
+  width: 200px;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold ;
+  border: 1px solid black;
+  color: black;
+  border-radius: 10px;
+  background-color: rgba(241, 208, 241, 0.616);
+  box-shadow:5px 5px 10px 5px rgb(12, 11, 11);
+  margin-left: 40px;
+  padding: 0 20px ;
+}
+.btn-header-family:hover {
+  width: 350;
+  color: rgb(47, 243, 8);
+}
+/* это чтоб на других страницах сайта фото вмещались */
+
+.img2 {
+  
+  margin: 20px;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  border: 5px;
+  border: 1px solid black;
+  box-shadow:5px 5px 10px 5px rgb(12, 11, 11);
+}
+.a-btn {
+
+}
+/* это стилизация для параграфов */
+p {
+  border-radius: 20px 0 20px 0;
+  border: 1px solid black;
+  box-shadow:5px 5px 10px 5px rgb(12, 11, 11);
+  padding: 10px;
+  
+}
+
+/* стилизация симейства параграфов текста */
+.p-text {
+  display: block;
+  margin: 20px;
+  padding: 10px;
+  font-size: 24px;
+  font-style: italic;
+  text-align: justify;
+  background-color: rgba(231, 222, 138, 0.342);
+
+}
+.test-hover:hover {
+  font-size: 30px;
+  padding: 4px 60px;
+  color: rgb(161, 1, 28);
+  background-color: rgba(240, 156, 240, 0.616);
+}
